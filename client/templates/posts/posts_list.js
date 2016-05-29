@@ -13,5 +13,5 @@
 //   }
 // ];
 Template.postsList.helpers({
-  posts: Posts.find({author:'bob-smith',category:'Javascript'})
+  posts: Posts.find()
 });
